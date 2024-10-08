@@ -1,0 +1,10 @@
+{
+  "domain": "solax",
+  "name": "Solax X1 Boost",
+  "version": "0.1",
+  "documentation": "https://github.com/japeral/solax",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@japeral"],
+  "iot_class": "cloud_polling"
+}
