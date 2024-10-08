@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
-    url="https://github.com/squishykid/solax",
+    url="https://github.com/japeral/solax",
     packages=setuptools.find_packages(exclude=["tests", "tests.*"]),
     install_requires=[
         "aiohttp>=3.5.4, <4",
