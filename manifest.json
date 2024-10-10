@@ -1,7 +1,7 @@
 {
-  "domain": "solax_x1_boost",
-  "name": "SolaX X1 Boost",
-  "codeowners": ["@joseperal"],
+  "domain": "solax",
+  "name": "SolaX Power: X1 Boost",
+  "codeowners": ["@squishykid"],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/solax",
   "iot_class": "local_polling",

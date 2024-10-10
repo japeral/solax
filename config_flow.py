@@ -17,9 +17,8 @@ from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
-DEFAULT_IP = "192.168.1.57"
 DEFAULT_PORT = 80
-DEFAULT_PASSWORD = "admin"
+DEFAULT_PASSWORD = ""
 
 STEP_USER_DATA_SCHEMA = vol.Schema(
     {
