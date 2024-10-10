@@ -1,4 +1,7 @@
-# Solax
+# Only for Solax Boost X1, includes HA API.
+Clone the repo in: /homeassistant/custom_components/solax_x1_boost/
+
+# Solax X1 Boost
 
 [![Build Status](https://github.com/squishykid/solax/workflows/tests/badge.svg)](https://github.com/squishykid/solax/actions)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/solax.svg)](https://pypi.org/project/solax)

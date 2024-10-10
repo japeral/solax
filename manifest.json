@@ -1,5 +1,5 @@
 {
-  "domain": "solax",
+  "domain": "solax_x1_boost",
   "name": "SolaX X1 Boost",
   "codeowners": ["@joseperal"],
   "config_flow": true,

@@ -1,4 +1,4 @@
-"""Support for Solax inverter via local API."""
+"""Support for solax_x1_boost inverter via local API."""
 
 from __future__ import annotations
 
