@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="solax_x1_boost",
+    name="solax",
     use_scm_version=True,
     author="Robin Wohlers-Reichel",
     author_email="me@robinwr.com",
-    description="solax_x1_boost inverter API client",
+    description="solax inverter API client",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",

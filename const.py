@@ -2,4 +2,4 @@
 
 DOMAIN = "solax"
 
-MANUFACTURER = "SolaX Power"
+MANUFACTURER = "SolaX Power: X1 Boost"
