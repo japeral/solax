@@ -24,7 +24,7 @@ print(data)
 #}
 
 #async def work():
-#    inverter = await solax.discover("192.168.1.57", 80, "admin", inverters=[INVERTERS_ENTRY_POINTS.get("x1_boost")], return_when=asyncio.FIRST_COMPLETED)
+#    inverter = await solax.discover("192.168.1.36", 80, "admin", inverters=[INVERTERS_ENTRY_POINTS.get("x1_boost")], return_when=asyncio.FIRST_COMPLETED)
 #    return await inverter.get_data()
 
 #loop = asyncio.new_event_loop()

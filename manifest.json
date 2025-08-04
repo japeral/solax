@@ -1,6 +1,6 @@
 {
   "domain": "solax",
-  "name": "SolaX Power: X1 Boost",
+  "name": "SolaX Power: fixed to X1 Boost by Jose.",
   "version": "2025.8.4",
   "codeowners":"@japeral",
   "dependencies": [],
