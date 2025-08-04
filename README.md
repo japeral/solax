@@ -13,10 +13,12 @@ Read energy usage data from the real-time API on Solax solar inverters.
 
 # Home Assistant deployment as custom-component
 - Delete any current Solax Integration aready added.
-- Clone the repo in Home Assistant: 
+- Access a HA console.
+- Navigate to this folder and clone the repo: 
     * cd config
     * cd custom_components
     * git clone https://github.com/japeral/solax
+    * python setup.py install
 - Reboot HA.
 - Add Solax integration, in the menu should be called now "SolaX Power: fixed to X1 Boost by Jose."
 ![search for solax](https://private-user-images.githubusercontent.com/7840678/474013345-9100e2e8-47f1-42f5-a762-6cb82ffd70c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQzMDg0NzUsIm5iZiI6MTc1NDMwODE3NSwicGF0aCI6Ii83ODQwNjc4LzQ3NDAxMzM0NS05MTAwZTJlOC00N2YxLTQyZjUtYTc2Mi02Y2I4MmZmZDcwYzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDgwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA4MDRUMTE0OTM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OTU3OTkyZTc3ZDRmNzUwY2I0MzhhNDUwOWJiZGM3ZTI4ODlmMDlmMGRjN2YxYWIyN2UzYWQwMDYxYjg3NjdiNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.npi68aJQv9eayKJWMp-cbKJPHknK-jqwQvO3uBBzqAA)
