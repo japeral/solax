@@ -1,9 +1,9 @@
 ## Home Assistant deployment as custom-component
+- Delete any current Solax Integration aready added.
 - Clone the repo in Home Assistant: 
-    cd config
-    cd custom_components
-    git clone https://github.com/japeral/solax
-- Delete any Solax Integration
+    * cd config
+    * cd custom_components
+    * git clone https://github.com/japeral/solax
 - Reboot HA.
 - Add Solax integration, in the menu should be called now "SolaX Power: fixed to X1 Boost by Jose."
 
