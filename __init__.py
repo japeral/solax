@@ -17,7 +17,7 @@ from .coordinator import SolaxDataUpdateCoordinator
 
 PLATFORMS = [Platform.SENSOR]
 
-SCAN_INTERVAL = timedelta(seconds=60)
+SCAN_INTERVAL = timedelta(seconds=10)
 
 
 @dataclass(slots=True)

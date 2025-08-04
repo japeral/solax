@@ -1,5 +1,11 @@
-# Only for Solax Boost X1, includes HA API.
-Clone the repo in: /homeassistant/custom_components/solax_x1_boost/
+## Home Assistant deployment as custom-component
+- Clone the repo in Home Assistant: 
+    cd config
+    cd custom_components
+    git clone https://github.com/japeral/solax
+- Delete any Solax Integration
+- Reboot HA.
+- Add Solax integration, in the menu should be called now "SolaX Power: fixed to X1 Boost by Jose."
 
 # Solax X1 Boost
 
@@ -70,3 +76,4 @@ You can get the list of supported inverters by looking up the `solax.inverter` e
 for ep in entry_points(group="solax.inverter"):
     print(ep)
 ```
+
