@@ -40,22 +40,22 @@ class X1Boost(Inverter):
     @classmethod
     def response_decoder(cls):
         return {
-            "AC Voltage": (0, Units.V, div10),
-            "AC Output Current": (1, Units.A, div10),
-            "AC Output Power": (2, Units.W),
-            "PV1 Voltage": (3, Units.V, div10),
-            "PV2 Voltage": (4, Units.V, div10),
-            "PV1 Current": (5, Units.A, div10),
-            "PV2 Current": (6, Units.A, div10),
-            "PV1 Power": (7, Units.W),
-            "PV2 Power": (8, Units.W),
-            "AC Frequency": (9, Units.HZ, div100),
-            "Total Generated Energy": (pack_u16(11, 12), Total(Units.KWH), div10),
-            "Today's Generated Energy": (13, DailyTotal(Units.KWH), div10),
-            "Inverter Temperature": (39, Units.C),
-            "Exported Power": (48, Units.W, to_signed),
-            "Total Export Energy": (pack_u16(50, 51), Total(Units.KWH), div100),
-            "Total Import Energy": (pack_u16(52, 53), Total(Units.KWH), div100),
+            "AC Voltage 0": (0, Units.V, div10),
+            "AC Output Current 1": (1, Units.A, div10),
+            "AC Output Power 2": (2, Units.W),
+            "PV1 Voltage 3": (3, Units.V, div10),
+            "PV2 Voltage 4": (4, Units.V, div10),
+            "PV1 Current 5": (5, Units.A, div10),
+            "PV2 Current 6": (6, Units.A, div10),
+            "PV1 Power 7": (7, Units.W),
+            "PV2 Power 8": (8, Units.W),
+            "AC Frequency 9": (9, Units.HZ, div100),
+            "Total Generated Energy 11-12": (pack_u16(11, 12), Total(Units.KWH), div10),
+            "Today's Generated Energy 13": (13, DailyTotal(Units.KWH), div10),
+            "Inverter Temperature 39": (39, Units.C),
+            "Exported Power 48": (48, Units.W, to_signed),
+            "Total Export Energy 50-51": (pack_u16(50, 51), Total(Units.KWH), div100),
+            "Total Import Energy 52-53": (pack_u16(52, 53), Total(Units.KWH), div100),
         }
 
     @classmethod
