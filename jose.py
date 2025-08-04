@@ -5,7 +5,7 @@ import solax
 import asyncio
 
 async def work():
-    r = await solax.real_time_api(ip_address = '192.168.1.57', port = 80, pwd = "admin")
+    r = await solax.real_time_api(ip_address = '192.168.1.36', port = 80, pwd = "admin")
     return await r.get_data()
 
 loop = asyncio.new_event_loop()
