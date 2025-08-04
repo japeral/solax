@@ -20,9 +20,9 @@ _LOGGER = logging.getLogger(__name__)
 DEFAULT_IP = "192.168.1.36"
 DEFAULT_PORT = 80
 DEFAULT_PASSWORD = "admin"
-DEFAULT_INVERTER_TYPE = "x1_boost"
+#DEFAULT_INVERTER_TYPE = "x1_boost"
 
-CONF_INVERTER_TYPE = "inverter_type"  # this should be from homeassistant.const, but it's not defined there
+#CONF_INVERTER_TYPE = "inverter_type"  # this should be from homeassistant.const, but it's not defined there
 
 STEP_USER_DATA_SCHEMA = vol.Schema(
     {
@@ -34,11 +34,11 @@ STEP_USER_DATA_SCHEMA = vol.Schema(
         # and the dropdown will be populated with the available types
         # and the user can select one of them
         # For now, we will just use "x1_boost"
-        vol.Required(CONF_INVERTER_TYPE, default=DEFAULT_INVERTER_TYPE): vol.In(
-            [
-                "x1_boost",
-            ]
-        ),
+        # vol.Required(CONF_INVERTER_TYPE, default=DEFAULT_INVERTER_TYPE): vol.In(
+        #    [
+        #        "x1_boost",
+        #    ]
+        #),
     }
 )
 
