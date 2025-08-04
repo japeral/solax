@@ -18,8 +18,8 @@ Read energy usage data from the real-time API on Solax solar inverters.
     * cd config
     * cd custom_components
     * git clone https://github.com/japeral/solax
-    * python setup.py build
-    * python setup.py install
+    * pip install --upgrade build
+    * python -m build
     * pip install .
 
 - Reboot HA.

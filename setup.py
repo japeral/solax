@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="solax",
-    use_scm_version=True,  # Use setuptools_scm for automatic version management
+    use_scm_version=True,  # Use setuptools_scm for automatic versioning
     author="Robin Wohlers-Reichel",
     author_email="me@robinwr.com",
     description="Solax inverter API client",
@@ -20,11 +20,10 @@ setuptools.setup(
         "importlib_metadata>=3.6; python_version<'3.10'",
         "typing_extensions>=4.1.0; python_version<'3.11'",
     ],
-    setup_requires=["setuptools_scm"],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "License :: OSI Approved :: MIT License",
     ],
     python_requires=">=3.8",
     entry_points={
@@ -33,4 +32,3 @@ setuptools.setup(
         ],
     },
 )
-
